@@ -1,0 +1,12 @@
+#! /usr/bin/env node
+
+var connect = require('connect'),
+    optimist = require('optimist'),
+    chronicle = require('chronicle');
+
+var options = optimist.usage('Usage: $0 -p PORT -d BLOG_REPO').default('p', 8080).demand(['d']).argv;
+
+connect(
+    connect.logger(),
+    chronicle(options.d)
+).listen(options.p);

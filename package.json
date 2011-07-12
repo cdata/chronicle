@@ -1,0 +1,24 @@
+{
+    "name": "chronicle",
+    "description": "A simple server for wandering thoughts.",
+    "version": "0.0.1",
+    "author": "Christopher Joel <aariel@gmail.com>",
+    "contributors": [ 
+        {
+            "name" : "Christopher Joel", 
+            "email" : "aariel@gmail.com"
+        }
+    ],
+    "dependencies": {
+        "markdown-js" : "0.0.3",
+        "git-fs" : "0.0.6",
+        "connect" : "1.4.0"
+    },
+    "keywords": [
+        "markdown", "blog", "simple", "git"
+    ],
+    "main": "./lib",
+    "engines": { 
+        "node" : "0.4.x" 
+    }
+}
