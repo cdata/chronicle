@@ -1,0 +1,33 @@
+{
+    "name" : "Blog Name", 
+    "description" : "Blog description.",
+    "keywords" : ["some", "name", "foo", "bar"],
+    "homepage" : "http://some.blog.name/",
+    "version" : "1",
+    "author" : {
+        "name" : "Christopher Joel",
+        "email" : "chris@scriptolo.gy",
+        "url" : "http://scriptolo.gy"
+    },
+    "contributors" : [],
+    "config" : {
+        "foo" : "bar"
+    },
+    "main" : "somename", 
+    "bin" : { "somebin" : "./main.js" }, 
+    "scripts" : { "test" : "tap test/" },
+    "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/substack/node-optimist.git"
+    },
+    "bugs" : "http://github.com/cdata/somename/issues",
+    "dependencies" : { 
+        "somedep" : "~0.7.2"
+    },
+    "licenses" : [
+        {
+            "type" : "MIT",
+            "url" : "http://www.opensource.org/licenses/mit-license.php"
+        }
+    ]
+}
